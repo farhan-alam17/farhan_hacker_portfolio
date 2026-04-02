@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Footer from './components/Footer';
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       {/* Visual background effect */}
       <div className="scanlines"></div>
+      <Contact />
       <Footer/>
     </div>
   );
